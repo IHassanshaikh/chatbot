@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Travel Agency</h1>
+        <nav>
+            <ul>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <!-- Add destination information here -->
+    </section>
+
+    <section id="packages">
+        <h2>Featured Packages</h2>
+        <!-- Add package information here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+    </footer>
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "1496e1ab-070b-49de-9286-1d567f0bd261",
+        apiHost: "http://localhost:3000",
+    })
+</script>
+<script src="app.js"></script>
+</body>
+</html>
